@@ -14,6 +14,7 @@ import java.sql.Connection;
 public class ConnectionUtil {
 	//for singleton instance
 	private static ConnectionUtil cu;
+//blah
 	
 	// add your jdbc url
 	public static final String URL = "jdbc:oracle:thin:@cardealership.cr82im4lqkcc.us-east-2.rds.amazonaws.com:1521:ORCL";
