@@ -1,4 +1,4 @@
-package com.revature.tier3.answers;
+package com.revature.tier3.answers.Answer1Tests;
 
 import static com.revature.tier3.answers.PointsTests.addPoints;
 import static org.junit.Assert.assertTrue;
@@ -15,17 +15,17 @@ import org.junit.Test;
  */
 public class Answer1Tests {
 
-    /**
-     * tests the connection to the db instance to ensure there is one
-     */
-    @Test
-    public void test1() {
-        try{
-        Session sess = TestConfig.getInstance().openSession();
-        assertTrue(sess.isConnected());
-        addPoints(10);
-        } catch(Exception e){
-            fail();
-        }
-    }
+	/**
+	 * tests the connection to the db instance to ensure there is one
+	 */
+	@Test
+	public void test1() {
+		try {
+			Session sess = TestConfig.getInstance().openSession();
+			assertTrue(sess.isConnected());
+			addPoints(10);
+		} catch (Exception e) {
+			fail();
+		}
+	}
 }

@@ -28,7 +28,7 @@ public class ConnectionUtil {
 	public static final String TIER_3_SEQUENCE_NAME = "ID_MAKER2";
 
 	// implement this method to connect to the db and return the connection object
-	public Connection connect(){
+	public static Connection connect(){
 		return null;
 	}
 

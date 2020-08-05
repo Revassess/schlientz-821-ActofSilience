@@ -4,6 +4,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
+import com.revature.tier3.answers.Answer1Tests.Answer1Tests;
+
 @RunWith(Suite.class)
 @SuiteClasses({
     Answer1Tests.class,
